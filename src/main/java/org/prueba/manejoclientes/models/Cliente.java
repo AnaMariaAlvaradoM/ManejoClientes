@@ -6,7 +6,6 @@ import jakarta.persistence.*;
 @Table(name = "cliente")
 public class Cliente {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -25,7 +24,7 @@ public class Cliente {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Long id_cliente) {
         this.id = id;
     }
 
