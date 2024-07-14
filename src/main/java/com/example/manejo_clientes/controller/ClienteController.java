@@ -16,7 +16,6 @@ public class ClienteController {
     @Autowired
     private ClienteService clienteService;
 
-
     @PostMapping("/crear")
     @ResponseStatus(HttpStatus.CREATED)
     public Cliente createCliente(@RequestBody Cliente cliente) {
