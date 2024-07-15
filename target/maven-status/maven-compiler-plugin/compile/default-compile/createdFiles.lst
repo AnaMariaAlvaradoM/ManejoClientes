@@ -1,0 +1,6 @@
+com\example\manejo_clientes\model\Cliente.class
+com\example\manejo_clientes\controller\ClienteController.class
+com\example\manejo_clientes\WebConfig.class
+com\example\manejo_clientes\services\ClienteService.class
+com\example\manejo_clientes\ManejoClientesApplication.class
+com\example\manejo_clientes\repositories\ClienteRepository.class
